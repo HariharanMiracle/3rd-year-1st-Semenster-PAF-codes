@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="PAF" path="/PAF" reloadable="true" source="org.eclipse.jst.jee.server:PAF"/><Context docBase="Servlet1" path="/Servlet1" reloadable="true" source="org.eclipse.jst.jee.server:Servlet1"/></Host>
+      <Context docBase="PAF" path="/PAF" reloadable="true" source="org.eclipse.jst.jee.server:PAF"/><Context docBase="Servlet1" path="/Servlet1" reloadable="true" source="org.eclipse.jst.jee.server:Servlet1"/><Context docBase="springbootsellnbuy" path="/springbootsellnbuy" reloadable="true" source="org.eclipse.jst.j2ee.server:springbootsellnbuy"/><Context docBase="Project" path="/Project" reloadable="true" source="org.eclipse.jst.jee.server:Project"/><Context docBase="Lab10" path="/Lab10" reloadable="true" source="org.eclipse.jst.jee.server:Lab10"/><Context docBase="Paf_assignment" path="/Paf_assignment" reloadable="true" source="org.eclipse.jst.jee.server:Paf_assignment"/><Context docBase="Lab11" path="/Lab11" reloadable="true" source="org.eclipse.jst.jee.server:Lab11"/></Host>
     </Engine>
   </Service>
 </Server>
